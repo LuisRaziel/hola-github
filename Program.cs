@@ -3,6 +3,12 @@ var app = builder.Build();
 
 app.MapGet("/weatherforecast", () => Results.Json("docker using webhooks"));
 
+app.MapGet("/github", () =>
+{
+    var message = "hello github :(;
+    return message;
+});
+
 app.Run();
 // var builder = WebApplication.CreateBuilder(args);
 
