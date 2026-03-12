@@ -1,26 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "/home/rfelix/taller-cpm/MyApp/MyApp.csproj": {}
+    "C:\\Users\\DIHL21698\\Documents\\Proyectos\\RedHat\\taller-dotnet8\\MyApp.csproj": {}
   },
   "projects": {
-    "/home/rfelix/taller-cpm/MyApp/MyApp.csproj": {
+    "C:\\Users\\DIHL21698\\Documents\\Proyectos\\RedHat\\taller-dotnet8\\MyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rfelix/taller-cpm/MyApp/MyApp.csproj",
+        "projectUniqueName": "C:\\Users\\DIHL21698\\Documents\\Proyectos\\RedHat\\taller-dotnet8\\MyApp.csproj",
         "projectName": "MyApp",
-        "projectPath": "/home/rfelix/taller-cpm/MyApp/MyApp.csproj",
-        "packagesPath": "/home/rfelix/.nuget/packages/",
-        "outputPath": "/home/rfelix/taller-cpm/MyApp/obj/",
+        "projectPath": "C:\\Users\\DIHL21698\\Documents\\Proyectos\\RedHat\\taller-dotnet8\\MyApp.csproj",
+        "packagesPath": "C:\\Users\\DIHL21698\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DIHL21698\\Documents\\Proyectos\\RedHat\\taller-dotnet8\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/rfelix/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\DIHL21698\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://scdp100207.capome.coop/LibreriasComunesCPM/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -32,6 +40,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.124/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.319/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
