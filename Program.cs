@@ -42,7 +42,7 @@ app.MapGet("/alternate", () =>
 
 app.MapGet("/github", () =>
 {
-    var message = "hello github :);
+    var message = "hello github :(;
     return message;
 });
 
